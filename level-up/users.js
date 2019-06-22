@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { check, validationResult } = require("express-validator/check");
+const { check, validationResult } = require("../node_modules/express-validator/check");
 const gravatar = require('gravatar');
 const bscrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
