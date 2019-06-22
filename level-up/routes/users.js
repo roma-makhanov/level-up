@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const { check, validationResult } = require("../level-up/node_modules/express-validator/check");
+const { check, validationResult } = require("express-validator/check");
 const gravatar = require('gravatar');
 const bscrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const config = require('config');
-const User = require('../level-up/models/User');
+const User = require('../models/User');
 
 
 //@route GET api/users
